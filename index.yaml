@@ -1,11 +1,22 @@
 apiVersion: v1
 entries:
+  mariadb-instance:
+  - apiVersion: v2
+    appVersion: "10.6"
+    created: "2026-09-02T16:32:22.295782238-07:00"
+    description: MariaDB database
+    digest: 7d3533915b25ebc1483a1bf3370b51e9864282e75e0b35a2739193db146bcee0
+    name: mariadb-instance
+    type: application
+    urls:
+    - https://taintedkernel.github.io/helm-charts/releases/mariadb-instance-0.2.0.tgz
+    version: 0.2.0
   sealed-secrets:
   - annotations:
       category: DeveloperTools
     apiVersion: v2
     appVersion: 0.38.4
-    created: "2026-08-31T17:28:19.842950993-07:00"
+    created: "2026-09-02T16:32:22.304023051-07:00"
     description: Helm chart for the sealed-secrets controller.
     digest: e5076ab421bea3c0012dfe1b5402d805a9e221a737413172dca50288e236ac95
     home: https://github.com/bitnami/sealed-secrets
@@ -24,4 +35,4 @@ entries:
     urls:
     - https://taintedkernel.github.io/helm-charts/releases/sealed-secrets-2.19.1.tgz
     version: 2.19.1
-generated: "2026-08-31T17:28:19.841880088-07:00"
+generated: "2026-09-02T16:32:22.290507707-07:00"
